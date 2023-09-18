@@ -1,0 +1,128 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include uintro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  @include uintro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include uintro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .ucountdown {
+    font-size: 60px;
+    span {
+      margin-right: 38px;
+      &:nth-child(3) {
+        margin-right: 25px;
+      }
+    }
+    small {
+      font-weight: 400;
+      font-size: 26px;
+    }
+  }
+  .utitle-1 {
+    font-size: 40px;
+  }
+  .uparagraph {
+    font-size: 24px;
+    &.big {
+      font-size: 30px;
+    }
+  }
+  .ubutton {
+    font-size: 22px;
+    padding: 16px 25px;
+  }
+  @include uintro-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  @include uintro-lg-xlg;
+}
+// 930px
+@include md-lg {
+  .ucountdown {
+    font-size: 50px;
+    span {
+      margin-right: 32px;
+      &:nth-child(3) {
+        margin-right: 25px;
+      }
+    }
+    small {
+      font-size: 20px;
+    }
+  }
+  .utitle-1 {
+    font-size: 35px;
+  }
+  .uparagraph {
+    font-size: 20px;
+    &.big {
+      font-size: 25px;
+    }
+  }
+  .ubutton {
+    font-size: 18px;
+  }
+  @include uintro-md-lg;
+}
+// 750px
+@include sm-md {
+  @include uintro-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  .utitle-1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .ucountdown {
+    font-size: 38px;
+    span {
+      margin-right: 22px;
+      &:nth-child(3) {
+        margin-right: 18px;
+      }
+    }
+    small {
+      font-size: 16px;
+    }
+    strong {
+    left: calc(100% + 6px);
+
+    }
+  }
+  .uparagraph {
+    font-size: 16px;
+    &.big {
+      font-size: 20px;
+    }
+  }
+  .ubutton {
+    font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 7px;
+  }
+  @include uintro-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  @include uintro-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  @include uintro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include uintro-xxxsm-xxsm;
+}
